@@ -7,6 +7,13 @@
 
 ![Image](https://github.com/Lilylu917204/Covid-19-Tracker/blob/main/covid19.png)
 
+## All the packages need to be installed for this project:
+* @material-us/core
+* react-leaflet 
+* leaflet       
+* react-chartjs-2 chart.js   
+* numeral  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
