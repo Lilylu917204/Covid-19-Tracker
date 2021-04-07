@@ -5,7 +5,7 @@
 * Line Chart shows fluctuations over days, hover around to see exact figures
 * Clickable Markers on Map show Country stats
 
-![This is a alt text.](/image/sample.png "This is a sample image.")
+![Image](https://github.com/Lilylu917204/Covid-19-Tracker/blob/main/covid19.png)
 
 # Getting Started with Create React App
 
