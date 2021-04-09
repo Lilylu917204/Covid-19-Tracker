@@ -17,7 +17,7 @@
 .infoBox__total {
   color: #6c757d;
   font-weight: 700 !important;
-  font-size: 0.8rem !important;
+  font-size: 0.9rem !important;
   margin-top: 15px !important;
 }
 
@@ -34,6 +34,19 @@
 }
 
 @media (max-width: 990px) {
+  .infoBox--selected {
+    border-left: 10px solid greenyellow;
+    border-top: none;
+  }
+  .infoBox--red {
+    border-color: red;
+  }
+  .infoBox__cases--green {
+    color: green !important;
+  }
+}
+
+@media (max-width: 480px) {
   .infoBox {
     height: 130px;
   }
@@ -50,15 +63,6 @@
   .infoBox__total {
     margin-top: 2px !important;
     text-align: center;
-  }
-  .infoBox--selected {
-    border-left: 10px solid greenyellow;
-    border-top: none;
-  }
-  .infoBox--red {
-    border-color: red;
-  }
-  .infoBox__cases--green {
-    color: green !important;
+    font-size: 0.8rem;
   }
 }
