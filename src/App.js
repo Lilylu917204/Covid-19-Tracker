@@ -32,6 +32,7 @@ const App = () => {
       setCountryInfo(data);
     };
     worldWideRender();
+    resizeMap();
   }, []);
 
   useEffect(() => {
@@ -71,7 +72,15 @@ const App = () => {
     countryCode === "worldwide" ? setMapZoom(3) : setMapZoom(4);
   };
 
-  console.log(mapCenter, mapZoom);
+  const resizeMap = () => {
+    if (window.innerWidth <= 990) {
+      setMapZoom(1.2);
+    } else {
+      setMapZoom(3);
+    }
+  };
+
+  window.addEventListener("resize", resizeMap);
 
   return (
     <div className="app">

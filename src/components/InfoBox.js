@@ -12,7 +12,7 @@ const InfoBox = ({ active, isRed, title, cases, total, ...props }) => {
     >
       <CardContent>
         <Typography color="textSecondary" className="infoBox__title">
-          {title}
+          <p className="infoBox__title__p"> {title}</p>
         </Typography>
         <h2 className={`infoBox__cases ${!isRed && "infoBox__cases--green"}`}>
           {cases}

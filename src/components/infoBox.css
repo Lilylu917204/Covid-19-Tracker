@@ -32,3 +32,34 @@
 .infoBox__cases--green {
   color: green !important;
 }
+
+@media (max-width: 990px) {
+  .infoBox {
+    height: 150px;
+  }
+  .infoBox__title__p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .infoBox__cases {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+    text-align: center;
+  }
+  .infoBox__total {
+    margin-top: 2px !important;
+    text-align: center;
+    font-size: 0.5rem !important;
+  }
+  .infoBox--selected {
+    border-left: 10px solid greenyellow;
+    border-top: none;
+  }
+  .infoBox--red {
+    border-color: red;
+  }
+  .infoBox__cases--green {
+    color: green !important;
+  }
+}
